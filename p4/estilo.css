@@ -1,0 +1,60 @@
+/*ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	padding-left: 20px;
+	border:1px solid red;
+	background: url(barnavvert/seta.png) no-repeat left center;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+ul a {
+	margin: 1px;
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(barnavvert/menu.png) no-repeat left bottom;
+}
+
+ul a:hover, .selecionado a {
+	background: url(barnavvert/menu.png) no-repeat right bottom;
+	color: #fff;
+}*/
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 720px;
+	background: /*#159cb0*/ url(barnavhor/fundo-horizontal.png) repeat-x;
+	float: left;
+}
+
+ul li {
+	float: left;
+}
+
+ul a {
+	display: block;
+	padding: 0 2em;
+	line-height: 2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(barnavhor/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+	background: none;
+}
